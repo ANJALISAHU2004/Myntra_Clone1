@@ -1,0 +1,79 @@
+.FirstContainer{
+  min-height:50px;
+  height:90px;
+    width: 100%;
+  
+    
+}
+.BannerContainer{
+  min-height: 200px;
+  max-height:500px;
+  width: 100%;
+}
+.CouponContainer{
+ height: 120px;
+ width: 100%;
+}
+.FlatOff{
+  display: flex;
+ width: 100%;
+}
+.Flat100Off{
+  height: 90%;
+  width: 100%;
+  /* min-height: 80px;
+  min-width: 100%;
+max-height: 150px;
+max-width: 700px; */
+margin: 10px;
+margin-left:10px;
+}
+.Flat200Off{
+  height: 90%;
+  width: 100%;
+/* max-height: 150px;
+max-width: 700px; */
+  margin: 10px;
+}
+.CrazyDeals{
+  height: 150px;
+  width: 100%;
+}
+.CrazyDealsContainer{
+  
+  border: 2px solid orange;
+  height: fit-content;
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.CrazyDealsContainer::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+.ShopByCategories{
+  height: 120%;
+  width: 100%;
+  
+}
+.ShopByCategoriesContainer{
+  height: fit-content;
+  width: fit-content;
+  border: 2px solid orange;
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly;
+ padding: 10px;
+}
+.ShopByCategoriesItem{
+  margin: 10px;
+  height: 300px;
+  width: 220px;
+  border: 8px solid transparent;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(150, 46, 46),  orange) 1;
+}
+
+
