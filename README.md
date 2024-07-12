@@ -1,15 +1,13 @@
 # Myntra_Clone1
 
+<ol>
+<li></li>
+
+</ol>
+
 this is a myntra clone
-Technologies used
-React
-Redux
-Html
-CSS
-Javascript
-Chakra UI
-React Icons
-Installing and Running
+
+<li>React</li><li>Redux</li><li>Html</li><li>CSS</li><li>Javascript</li><li>Chakra UI</li><li>React Icons</li><li>Installing and Running</li>
 
 <h2>To run this application on your local system</h2>
 
